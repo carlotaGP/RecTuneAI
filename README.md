@@ -40,10 +40,14 @@ La app está pensada tanto para amantes de la música como para analistas de dat
 git clone https://github.com/carlotaGP/RecTuneAI.git
 cd RecTuneAI
 
-# Crear y configurar entorno con Conda
-conda create --n env
-conda activate env
-conda env create -f environment.yml
+# Entorno
+Crear y configurar entorno con Conda
+  conda create --n env
+  conda activate env
+  conda env create -f environment.yml
+
+Si prefires usar pip para el entorno
+  pip install -r requirements.txt
 
 # Ejecuta la app
 streamlit run app.py
