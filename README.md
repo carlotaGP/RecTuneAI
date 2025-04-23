@@ -79,6 +79,7 @@ Aquí irá una explicación de cómo usar la app: seleccionar país, explorar ch
 - **Nombre:** Spotify Top 200 Charts  
 - **Fuente:** [Kaggle - Spotify Charts Dataset](https://www.kaggle.com/datasets/dhruvildave/spotify-charts)  
 - **Campos principales:** `Track Name`, `Artist`, `Streams`, `Date`, `Region`, `Position`, `URL`
+- Para pruebas rápidas, se ha creado una muestra reducida: `spotify_dataset_short.csv`
 
 ---
 
