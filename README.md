@@ -37,11 +37,13 @@ La app está pensada tanto para amantes de la música como para analistas de dat
 
 ```bash
 # Clona el repositorio
-git clone https://github.com/tu_usuario/vibesage.git
-cd vibesage
+git clone https://github.com/carlotaGP/RecTuneAI.git
+cd RecTuneAI
 
-# Instala las dependencias
-pip install -r requirements.txt
+# Crear y configurar entorno con Conda
+conda create --n env
+conda activate env
+conda env create -f environment.yml
 
 # Ejecuta la app
 streamlit run app.py
@@ -78,7 +80,8 @@ Aquí irá una explicación de cómo usar la app: seleccionar país, explorar ch
 
 ## 🛠 Tecnologías Utilizadas
 
-- Python  
+- Python
+- Conda
 - Pandas, NumPy  
 - Streamlit  
 - Plotly / Seaborn  
