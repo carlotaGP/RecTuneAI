@@ -7,14 +7,14 @@ RecTuneAI es una aplicación interactiva desarrollada con Python y Streamlit que
 ## 📑 Índice
 
 1. [Descripción del Proyecto](#-descripción-del-proyecto)
-2. [Demo](#demo)
-3. [Instalación](#instalación)
-4. [Estructura del Proyecto](#estructura-del-proyecto)
-5. [Uso de la Aplicación](#uso-de-la-aplicación)
-6. [Funcionalidades](#funcionalidades)
-7. [Dataset](#dataset)
-8. [Tecnologías Utilizadas](#tecnologías-utilizadas)
-9. [Contribuciones](#contribuciones)
+2. [Demo](#-demo)
+3. [Instalación](#-instalación)
+4. [Estructura del Proyecto](#-estructura-del-proyecto)
+5. [Uso de la Aplicación](#-uso-de-la-aplicación)
+6. [Funcionalidades](#-funcionalidades)
+7. [Dataset](#-dataset)
+8. [Tecnologías Utilizadas](#-tecnologías-utilizadas)
+9. [Contribuciones](#-contribuciones)
 10. [Licencia](#-licencia)
 
 ---
