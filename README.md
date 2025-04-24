@@ -37,11 +37,17 @@ La app está pensada tanto para amantes de la música como para analistas de dat
 
 ```bash
 # Clona el repositorio
-git clone https://github.com/tu_usuario/vibesage.git
-cd vibesage
+git clone https://github.com/carlotaGP/RecTuneAI.git
+cd RecTuneAI
 
-# Instala las dependencias
-pip install -r requirements.txt
+# Entorno
+Crear y configurar entorno con Conda
+  conda create --n env
+  conda activate env
+  conda env create -f environment.yml
+
+Si prefires usar pip para el entorno
+  pip install -r requirements.txt
 
 # Ejecuta la app
 streamlit run app.py
@@ -73,12 +79,14 @@ Aquí irá una explicación de cómo usar la app: seleccionar país, explorar ch
 - **Nombre:** Spotify Top 200 Charts  
 - **Fuente:** [Kaggle - Spotify Charts Dataset](https://www.kaggle.com/datasets/dhruvildave/spotify-charts)  
 - **Campos principales:** `Track Name`, `Artist`, `Streams`, `Date`, `Region`, `Position`, `URL`
+- Para pruebas rápidas, se ha creado una muestra reducida: `spotify_dataset_short.csv`
 
 ---
 
 ## 🛠 Tecnologías Utilizadas
 
-- Python  
+- Python
+- Conda
 - Pandas, NumPy  
 - Streamlit  
 - Plotly / Seaborn  
