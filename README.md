@@ -7,15 +7,16 @@ RecTuneAI es una aplicación interactiva desarrollada con Python y Streamlit que
 ## 📑 Índice
 
 1. [Descripción del Proyecto](#-descripción-del-proyecto)
-2. [Demo](#-demo)
-3. [Instalación](#-instalación)
-4. [Estructura del Proyecto](#-estructura-del-proyecto)
-5. [Uso de la Aplicación](#-uso-de-la-aplicación)
-6. [Funcionalidades](#-funcionalidades)
-7. [Dataset](#-dataset)
-8. [Tecnologías Utilizadas](#-tecnologías-utilizadas)
-9. [Contribuciones](#-contribuciones)
-10. [Licencia](#-licencia)
+2. [Descripción de las columnas](#-descripción-de-las-columnas)
+3. [Demo](#-demo)
+4. [Instalación](#-instalación)
+5. [Estructura del Proyecto](#-estructura-del-proyecto)
+6. [Uso de la Aplicación](#-uso-de-la-aplicación)
+7. [Funcionalidades](#-funcionalidades)
+8. [Dataset](#-dataset)
+9. [Tecnologías Utilizadas](#-tecnologías-utilizadas)
+10. [Contribuciones](#-contribuciones)
+11. [Licencia](#-licencia)
 
 ---
 
@@ -26,6 +27,22 @@ RecTuneAI es una aplicación interactiva desarrollada con Python y Streamlit que
 La app está pensada tanto para amantes de la música como para analistas de datos que quieran entender mejor el comportamiento musical global.
 
 ---
+
+## 🧾 Descripción de las Columnas
+
+| Columna    | Descripción |
+|------------|-------------|
+| **title**  | Nombre de la canción. |
+| **rank**   | Posición de la canción en el ranking diario (1 es la más popular). |
+| **date**   | Fecha en la que la canción aparece en el ranking (formato `YYYY-MM-DD`). |
+| **artist** | Nombre del/los artista/s de la canción. |
+| **url**    | Enlace directo a la canción en Spotify. |
+| **region** | País o región a la que pertenece el ranking. |
+| **chart**  | Tipo de lista, puede ser:<br>• `top200`: canciones más reproducidas.<br>• `viral50`: canciones virales con mayor crecimiento. |
+| **trend**  | Movimiento de la canción respecto al día anterior:<br>• `SAME_POSITION`: Mismo puesto.<br>• `MOVE_UP`: Subió posiciones.<br>• `MOVE_DOWN`: Bajó posiciones.<br>• `NEW_ENTRY`: Nueva entrada en el ranking. |
+| **streams**| Número de reproducciones diarias en esa región (solo disponible para `top200`).<br>⚠️ Para `viral50`, este valor es `NULL`. |
+
+--- 
 
 ## 🎥 Demo
 
